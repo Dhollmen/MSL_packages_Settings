@@ -36,8 +36,8 @@ import com.android.settingslib.bluetooth.Utils.ErrorListener;
  * for creating dialogs.
  */
 public final class Utils {
-    static final boolean V = com.android.settingslib.bluetooth.Utils.V; // verbose logging
-    static final boolean D =  com.android.settingslib.bluetooth.Utils.D;  // regular logging
+    static final boolean V = false; //com.android.settingslib.bluetooth.Utils.V; // verbose logging
+    static final boolean D = false; // com.android.settingslib.bluetooth.Utils.D;  // regular logging
 
     private Utils() {
     }

@@ -45,7 +45,7 @@ import com.android.settings.widget.SwitchBar;
 public class BatterySaverSettings extends SettingsPreferenceFragment
         implements SwitchBar.OnSwitchChangeListener {
     private static final String TAG = "BatterySaverSettings";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false; //Log.isLoggable(TAG, Log.DEBUG);
     private static final String KEY_TURN_ON_AUTOMATICALLY = "turn_on_automatically";
     private static final long WAIT_FOR_SWITCH_ANIM = 500;
 

@@ -34,7 +34,7 @@ import java.util.Objects;
 
 abstract public class ZenModeSettingsBase extends RestrictedSettingsFragment {
     protected static final String TAG = "ZenModeSettings";
-    protected static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    protected static final boolean DEBUG = false; //Log.isLoggable(TAG, Log.DEBUG);
 
     private final Handler mHandler = new Handler();
     private final SettingsObserver mSettingsObserver = new SettingsObserver();

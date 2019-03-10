@@ -394,7 +394,7 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
     private class SimEnablerPreference extends SimPreference implements OnCheckedChangeListener {
 
         private String TAG = "SimEnablerPreference";
-        private static final boolean DBG = true;
+        private static final boolean DBG = false;
 
         private static final int EVT_UPDATE = 1;
         private static final int EVT_SHOW_RESULT_DLG = 2;
